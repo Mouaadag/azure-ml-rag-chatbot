@@ -28,18 +28,21 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot specializ
 ## Installation
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/your-username/azure-ml-rag-chatbot.git
    cd azure-ml-rag-chatbot
    ```
 
 2. Create and activate a Conda environment:
+
    ```
    conda create -n rag-chatbot python=3.10
    conda activate rag-chatbot
    ```
 
 3. Install the required packages:
+
    ```
    pip install -r requirements.txt
    ```
@@ -56,11 +59,13 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot specializ
    Place your PDF documentation in the `data` directory.
 
 2. Build the knowledge base:
+
    ```
    python fill_db.py
    ```
 
 3. Run the Streamlit app:
+
    ```
    streamlit run rag_streamlit_chatbot.py
    ```
@@ -90,6 +95,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-[Your Name] - [Your Email]
+[Mouaad AGOURRAM] - [email](mouaad.agourram@outlook.fr)
 
 Project Link: [https://github.com/your-username/azure-ml-rag-chatbot](https://github.com/your-username/azure-ml-rag-chatbot)
