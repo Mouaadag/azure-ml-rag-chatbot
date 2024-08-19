@@ -1,0 +1,13 @@
+chromadb==0.4.22
+langchain==0.1.8
+langchain-community==0.0.21
+langchain-text-splitters==0.0.1
+pypdf==4.0.2
+anthropic==0.18.1
+python-dotenv==1.0.1
+tensorflow-macos
+tensorflow-metal
+tensorflow-hub
+tensorflow-text
+tqdm==4.66.2
+streamlit
