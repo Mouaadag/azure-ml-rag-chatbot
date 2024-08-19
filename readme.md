@@ -67,7 +67,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot specializ
 3. Run the Streamlit app:
 
    ```
-   streamlit run rag_streamlit_chatbot.py
+   streamlit run chatbot.py
    ```
 
 4. Open your web browser and navigate to the URL provided by Streamlit (usually `http://localhost:8501`).
@@ -75,7 +75,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot specializ
 ## Project Structure
 
 - `fill_db.py`: Script to process the PDF and create the vector database.
-- `rag_streamlit_chatbot.py`: Main application file with the Streamlit interface and chatbot logic.
+- `chatbot.py`: Main application file with the Streamlit interface and chatbot logic.
 - `requirements.txt`: List of Python dependencies.
 - `data/`: Directory to store Azure ML documentation PDFs.
 - `chroma_db/`: Directory where the ChromaDB files are stored.
